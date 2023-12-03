@@ -1,0 +1,120 @@
+<!DOCTYPE html
+<head>
+  <title>facebook homepage</title>
+  <style>
+     body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f2f5;
+    }
+
+    #navbar {
+      background-color: white;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: #000;
+    }
+
+    #navbar img {
+      width: 40px;
+      height: auto;
+    }
+
+    #search-bar {
+      display: flex;
+      justify-content: left;
+    }
+
+    #search-input {
+      background-origin: padding-box;
+      background-color: #f0f2f5;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      padding: 8px;
+      margin-right: 10px;
+      width: 200px;
+    }
+
+    #search-button {
+      background-color: #4a6ea9;
+      color: #fff;
+      border: none;
+      padding: 8px 12px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    .left-section {
+      width: 50%;
+      float: left;
+      background-color: white;
+    }
+    
+    .right-section {
+      width: 50%;
+      float: right;
+    
+    }
+    #friend1{
+        width: 200px;
+            height: 200px;
+            border-radius: 50%;
+    }
+  </style>
+</head>
+<body>
+
+    <!-- navi -->
+     <!-- Navigation bar -->
+     <div id="navbar">
+        <img id="logo" src="images/slider/facebook.png" alt="Facebook Logo">
+        <div id="search-bar">
+          <input type="text" id="search-input" placeholder="Search">
+        </div>
+        <div id="icons">
+          <img src="images/slider/home_FILL0_wght400_GRAD0_opsz24.png" alt="Home">
+          <img src="images/slider/group.png" alt="Groups">
+          <img src="images/slider/facebook-messenger.svg" alt="Messenger">
+        </div>
+      </div>
+  <!-- navigation bar ends  -->
+  <div class="left-section">
+    <h2>Friends</h2>
+    <div>
+        <ul>
+            <li>
+                Friend Request
+            </li>
+            <li>Suggestions</li>
+            <li>All Friends</li>
+            <li>Birthdays</li>
+            <li>Custoom lists</li>
+        </ul>
+    </div>
+    
+    
+  </div>
+  
+  <div class="right-section">
+    <h2>Friend Requests </h2>
+    <div id="friend1">
+        <img src="images/slider/mypic.jpeg" alt="">
+        <button>confirm</button>
+        <button>delet</button>
+
+    </div>
+    <div class="friend2">
+        <img src="images/slider/book1.jpg" alt="">
+    </div>
+    
+
+  </div>
+</body>
+</html>
